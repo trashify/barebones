@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo nope",
     "build": "gulp clean && gulp build",
-    "dev": "gulp",
+    "site": "gulp",
     "site-deploy": "gulp build && gh-pages -d site"
   },
   "repository": {

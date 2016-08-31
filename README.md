@@ -1,5 +1,3 @@
-# WORK IN PROGRESS
-
 <p align="center">
 	<a href=""><img width="100%" src="demo/images/header.png" alt="barebones - A minimal, responsive boilerplate for the modern web."></a>
 </p>
@@ -25,7 +23,7 @@
 **Install with cdn**
 
 ```html
-
+<link rel="stylesheet" href="https://cdn.rawgit.com/mightyCrow/barebones-css/master/dist/barebones.min.css">
 ```
 
 **Install with Bower**
