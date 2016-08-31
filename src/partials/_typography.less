@@ -1,0 +1,73 @@
+/* ===[ Typography ]=== */
+
+p {
+  margin-top: 0;
+}
+
+mark {
+  color: @color-default;
+  border-radius: .5rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-family: "Raleway", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  .header-typography(4rem, 1.2, -.1rem);
+}
+
+h2 {
+  .header-typography(3.6rem, 1.25, -.1rem);
+}
+
+h3 {
+  .header-typography(3rem, 1.3, -.1rem);
+}
+
+h4 {
+  .header-typography(2.4rem, 1.35, -.08rem);
+}
+
+h5 {
+  .header-typography(1.8rem , 1.5, -.05rem);
+}
+
+h6 {
+  .header-typography(1.5rem, 1.6, 0);
+}
+
+@media (min-width: 40rem) {
+  h1 {
+    font-size: 5.0rem;
+  }
+  h2 {
+    font-size: 4.2rem;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 3.0rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+}

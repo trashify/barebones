@@ -1,0 +1,47 @@
+{
+  "name": "barebones-css",
+  "version": "1.0.0",
+  "description": "A minimal, responsive CSS boilerplate for the modern web.",
+  "main": "dist/barebones.css",
+  "scripts": {
+    "test": "echo nope",
+    "build": "gulp clean && gulp build",
+    "dev": "gulp",
+    "site-deploy": "gulp build && gh-pages -d site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyCrow/barebones-css.git"
+  },
+  "keywords": [
+    "css boilerplate",
+    "css reset",
+    "css framework",
+    "bootstrap"
+  ],
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mightyCrow/barebones-css/issues"
+  },
+  "homepage": "https://github.com/mightyCrow/barebones-css#readme",
+  "dependencies": {
+    "flexboxgrid": "^6.3.0",
+    "sanitize.css": "^4.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.14.0",
+    "del": "2.2.1",
+    "gh-pages": "0.11.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-css-purge": "1.0.27",
+    "gulp-cssimport": "3.1.0",
+    "gulp-cssnano": "2.1.2",
+    "gulp-header": "1.8.7",
+    "gulp-less": "3.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-size": "2.1.0",
+    "run-sequence": "1.2.2"
+  }
+}

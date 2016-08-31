@@ -1,0 +1,71 @@
+/* ===[ utility ]=== */
+// Floats
+.u-float-right {
+  float: right;
+}
+
+.u-float-left {
+  float: left;
+}
+// Clear float
+.u-clearfix {
+  *zoom: 1;
+
+  &:after,
+  &:before {
+    content: '';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+// Printing
+@media print {
+  .u-show-on-print {
+    display: block;
+  }
+
+  .u-hide-on-print {
+    display: none;
+  }
+
+  .u-page-break {
+    display: block;
+    page-break-before: always;
+  }
+}
+// Width
+.u-full-width {
+  width: 100%;
+}
+
+.u-max-width {
+  max-width: 100%;
+}
+// Hide on different display sizes
+@media (min-width: 55rem) and (max-width: 118.5rem) {
+  .u-hide-on-tablets {
+    display: none;
+  }
+}
+@media (min-width: 118.5rem) {
+  .u-hide-on-desktop {
+    display: none;
+  }
+}
+// Display label inline
+.u-label--inline {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+// Uppercase text
+.u-uppercase {
+  text-transform: uppercase;
+}
+// Disable selection
+.u-no-select {
+  user-select: none;
+}

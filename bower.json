@@ -1,0 +1,26 @@
+{
+  "name": "barebones-css",
+  "description": "A minimal, responsive CSS boilerplate for the modern web.",
+  "main": "dist/barebones.css",
+  "authors": [
+    "Tiaan du Plessis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "boilerplate",
+    "css",
+    "reset",
+    "css",
+    "framework",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/mightyCrow/barebones-css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

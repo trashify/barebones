@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* ===[ Base ]=== */
+
+*,
+*:after,
+*:before {
+  outline: 0;
+  box-sizing: inherit; // Set box-sizing globally for padding on border widths
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: @color-default;
+  font-size: 1.6em;
+  font-weight: 300;
+  font-family: "Roboto", "Raleway", Helvetica, Arial, sans-serif;
+  letter-spacing: .01em;
+  line-height: 1.6;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* ====[ Misc ]==== */
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  border: 1px solid lighten(@color-default, 50%);
+}
+
+/* ====[ Spacing ]==== */
+
+.btn,
+button {
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem;
+}

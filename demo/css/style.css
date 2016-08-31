@@ -1,0 +1,143 @@
+main section {
+  margin: 40px 15vw;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  line-height: 50px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.navbar-logo {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: 25px;
+  font-family: 'Ewert', cursive;
+  margin-left: 20px;
+}
+
+.navbar-logo:hover {
+  opacity: 1.0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 25px;
+  opacity: 0.8;
+}
+
+.navbar-link:hover {
+  opacity: 1.0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover {
+  display: block;
+  background-color: #34495e;
+  color: #fff;
+  padding-top: 130px;
+  padding-bottom: 190px;
+}
+
+.cover p {
+  font-family: 'Raleway';
+  margin: 50px 0;
+}
+
+.cover-title {
+  display: block;
+  font-family: 'Ewert', cursive;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.cover-description {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.cover-btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.cover-btn:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: #2c3e50;
+}
+
+.docs-head {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'Ewert', cursive;
+  font-size: 300%;
+  color: #fff;
+  background-color: #34495e;
+}
+
+.docs-row {
+  margin-bottom: 20px;
+}
+
+.docs-col {
+  background-color: #eaf0f2;
+  border-radius: 5px;
+}
+
+.docs-example {
+  text-align: left;
+}
+
+.docs-space {
+  display: block;
+  height: 40px;
+}
+
+.footer {
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: #2c3e50;
+  font-size: 15px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  display: block;
+  width: 250px;
+  opacity: 0.8;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 30px;
+  font-family: 'Ewert', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.footer-logo:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 1.0;
+}
+
+.heart:after {
+  content: "\2764";
+  color: #f45660;
+}

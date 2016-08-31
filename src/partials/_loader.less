@@ -1,0 +1,23 @@
+/* ===[ Loader ]=== */
+
+.loader {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: loading;
+  animation-timing-function: linear;
+  border-radius: 50%;
+  border: 3px solid lighten(@color-default, 50%);
+  border-left-color: @color-default;
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

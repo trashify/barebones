@@ -1,0 +1,25 @@
+/* ===[ Code ]=== */
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 88%;
+  background: lighten(@color-default, 70%);
+  border-radius: 0.4rem;
+  white-space: nowrap;
+}
+
+pre {
+  padding: .5rem 0 .5rem 1rem;
+  background: lighten(@color-default, 70%);
+  border-left: 0.2rem solid lighten(@color-default, 30%);
+  text-align: left;
+  font-family: monospace;
+  & > code {
+    background: transparent;
+		border-radius: 0;
+		display: block;
+		padding: 1rem 1.5rem;
+		white-space: pre;
+  }
+}

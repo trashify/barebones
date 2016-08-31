@@ -1,0 +1,87 @@
+/* ===[ Button ]=== */
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: @color-default;
+  border: 0.1rem solid @color-default;
+  border-radius: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  padding: 0 3.0rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:focus,
+  &:hover {
+    background-color: @color-default--accent;
+    border-color: @color-default--accent;
+    color: #fff;
+  }
+
+  .button--disabled,
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+
+    &:focus,
+    &:hover {
+      background-color: @color-default;
+      border-color: @color-default;
+    }
+  }
+
+}
+
+.button--no-outline {
+  .button;
+  background-color: transparent;
+  border-color: transparent;
+  color: @color-default;
+
+  &:focus,
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: @color-default--accent;
+  }
+
+  &.button--disabled,
+  &[disabled] {
+    &:focus,
+    &:hover {
+      color: @color-default;
+    }
+  }
+}
+
+.button--outline {
+  .button;
+  background-color: transparent;
+  color: @color-default;
+
+  &:focus,
+  &:hover {
+    background-color: transparent;
+    border-color: @color-default--accent;
+    color: @color-default--accent;
+  }
+
+  &.button--disabled,
+  &[disabled] {
+    &:focus,
+    &:hover {
+      border-color: inherit;
+      color: @color-default;
+    }
+  }
+}
