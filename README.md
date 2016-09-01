@@ -1,7 +1,7 @@
 <p align="center">
 	<a href=""><img width="100%" src="demo/images/header.png" alt="barebones - A minimal, responsive boilerplate for the modern web."></a>
 </p>
-# barebones - [barebones-css](https://mightycrow.github.io/barebones-css)
+# [barebones-css](https://mightycrow.github.io/barebones-css)
 > A minimal, responsive boilerplate for the modern web.
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
