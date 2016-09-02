@@ -1,1 +1,6 @@
 /demo
+/src
+gulpfile.js
+.travis.yml
+.editorconfig
+bower.json

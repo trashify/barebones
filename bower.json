@@ -21,6 +21,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "demo",
+    "gulpfile.js",
+    ".travis.yml",
+    ".editorconfig"
   ]
 }
