@@ -46,6 +46,7 @@ Here are some other **awesome** options:
 - [Milligram](https://milligram.github.io/)
 - [Vital](https://vitalcss.com/)
 - [Legacy Framework](https://legacy-framework.com/)
+- [Spectre](https://picturepan2.github.io/spectre/)
 
 # Contributing
 Want to contribute to barebones? This project is still young and I welcome any help!
