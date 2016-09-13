@@ -1,12 +1,16 @@
 /* ===[ Blockquote ]=== */
 
 blockquote {
-  border-left: .4rem solid @color-default--accent;
+  border-left: .2rem solid lighten(@color-default, 30%);
   margin-left: 0;
   margin-right: 0;
   padding: 1rem 1.5rem;
 
   & *:last-child {
     margin: 0;
+  }
+
+  cite {
+    color: lighten(@color-default, 30%);
   }
 }
