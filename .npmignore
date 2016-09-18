@@ -1,6 +1,8 @@
 /demo
 /src
-gulpfile.js
-.travis.yml
 .editorconfig
+.gitignore
+.travis.yml
 bower.json
+gulpfile.js
+README.md
