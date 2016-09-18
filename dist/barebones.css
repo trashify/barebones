@@ -151,7 +151,9 @@ audio,canvas,iframe,img,svg,video {
 
 img {
 	border-style: none;
+	text-align: center;
 	max-width: 100%;
+	position: relative;
 }
 
 svg {
@@ -991,6 +993,26 @@ html,body {
 	width: 100%;
 }
 
+img:before {
+	content: "Sorry, this image is broken.";
+	font-size: 2rem;
+	display: block;
+	position: absolute;
+	top: .1rem;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #eceeef;
+	border: .2rem dotted #373d3f;
+}
+img:after {
+	content: attr(alt);
+	display: block;
+	position: absolute;
+	bottom: 1rem;
+	left: 5%;
+	width: 90%;
+}
 iframe {
 	border: 1px solid #b6bdbf;
 }
