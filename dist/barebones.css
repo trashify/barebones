@@ -1,6 +1,6 @@
 /**
  * barebones-css - A minimal, responsive CSS boilerplate for the modern web.
- * @version v1.0.2
+ * @version v1.0.3
  * @link https://github.com/mightyCrow/barebones-css#readme
  * @license MIT
  */
@@ -47,6 +47,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	box-sizing: border-box;
 	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
 }
 
 
@@ -292,6 +293,8 @@ a,area,button,input,label,select,textarea,[tabindex] {
 [hidden][aria-hidden="false"]:focus {
 	clip: auto;
 }
+
+
 
 
 @font-face {
@@ -1027,15 +1030,9 @@ pre,blockquote,dl,figure,table,p,ul,ol,form {
 	margin-bottom: 2.5rem;
 }
 
-p {
-	margin-top: 0;
-}
-strong,b {
-	font-weight: 700;
-}
 h1,h2,h3,h4,h5,h6 {
-	margin-top: 0;
-	margin-bottom: 2rem;
+	margin-top: 1.6rem;
+	line-height: 1.6rem;
 	font-weight: 300;
 	font-family: "Raleway", "Roboto", Helvetica, Arial, sans-serif;
 }
@@ -1087,11 +1084,39 @@ h6 {
 	}
 }
 
+p {
+	line-height: 1.6rem;
+	margin-top: 1.6rem;
+	margin-bottom: 0;
+}
+strong,b {
+	font-weight: 700;
+}
+ul,ol {
+	margin-top: 1.6rem;
+	margin-bottom: 1.6rem;
+}
+ul li,ol li {
+	line-height: 1.6rem;
+}
+ul ul,ol ul,ul ol,ol ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+code {
+	vertical-align: bottom;
+	padding: .2rem .5rem;
+	margin: 0 .2rem;
+	font-size: 88%;
+	background: #eceeef;
+	border-radius: 0.4rem;
+	white-space: nowrap;
+}
 
 blockquote {
 	border-left: 0.2rem solid #7f8c90;
-	margin-left: 0;
-	margin-right: 0;
+	margin: 1.6rem 0 1.6rem 0;
+	line-height: 1.6rem;
 	padding: 1rem 1.5rem;
 }
 blockquote *:last-child {
@@ -1210,14 +1235,6 @@ blockquote cite {
 	color: #373d3f;
 }
 
-code {
-	padding: .2rem .5rem;
-	margin: 0 .2rem;
-	font-size: 88%;
-	background: #eceeef;
-	border-radius: 0.4rem;
-	white-space: nowrap;
-}
 pre {
 	padding: .5rem 0 .5rem 1rem;
 	background: #eceeef;
