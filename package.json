@@ -1,6 +1,6 @@
 {
   "name": "barebones-css",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A minimal, responsive CSS boilerplate for the modern web.",
   "main": "dist/barebones.css",
   "scripts": {
