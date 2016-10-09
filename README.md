@@ -9,7 +9,7 @@
 [![Build Status](https://travis-ci.org/mightyCrow/barebones-css.svg?branch=master)](https://travis-ci.org/mightyCrow/barebones-css)
 [![GitHub version](https://badge.fury.io/gh/mightyCrow%2Fbarebones-css.svg)](https://badge.fury.io/gh/mightyCrow%2Fbarebones-css)
 [![Bower version](https://badge.fury.io/bo/barebones-css.svg)](https://badge.fury.io/bo/barebones-css)
-[![npm version](https://badge.fury.io/js/barebones-css.svg)](https://badge.fury.io/js/barebones-css)
+[![npm version](https://badge.fury.io/js/barebones-css.svg)](https://badge.fury.io/js/barebones-css) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mightyCrow/barebones-css/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mightyCrow/barebones-css.svg)](https://github.com/mightyCrow/barebones-css/stargazers) [![GitHub issues](https://img.shields.io/github/issues/mightyCrow/barebones-css.svg)](https://github.com/mightyCrow/barebones-css/issues)
 
 ## What's so great about it?
 
