@@ -42,6 +42,12 @@ $ bower install barebones-css
 $ npm install barebones-css
 ```
 
+**Install with yarn**
+
+```sh
+$ yarn add barebones-css
+```
+
 ## Not catching your fancy?
 Here are some other **awesome** options:
 - [Skeleton](http://getskeleton.com/)
