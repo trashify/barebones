@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo nope",
     "build": "gulp clean && gulp build",
-    "site": "gulp",
-    "site-deploy": "gulp build && gh-pages -d demo"
+    "start": "gulp",
+    "deploy": "gulp build && gh-pages -d demo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mightyCrow/barebones-css.git"
+    "url": "git+https://github.com/tiaanduplessis/barebones-css.git"
   },
   "keywords": [
     "css boilerplate",
@@ -22,9 +22,9 @@
   "author": "Tiaan du Plessis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mightyCrow/barebones-css/issues"
+    "url": "https://github.com/tiaanduplessis/barebones-css/issues"
   },
-  "homepage": "https://github.com/mightyCrow/barebones-css#readme",
+  "homepage": "https://github.com/tiaanduplessis/barebones-css#readme",
   "dependencies": {
     "flexboxgrid": "^6.3.0",
     "sanitize.css": "^4.1.0"

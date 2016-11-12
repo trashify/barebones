@@ -15,7 +15,7 @@
     "framework",
     "bootstrap"
   ],
-  "homepage": "https://github.com/mightyCrow/barebones-css",
+  "homepage": "https://github.com/tiaanduplessis/barebones-css",
   "ignore": [
     "**/.*",
     "node_modules",

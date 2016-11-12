@@ -3,13 +3,13 @@
 </p>
 # barebones-css
 
-[barebones-css](https://mightycrow.github.io/barebones-css) - A minimal, responsive boilerplate for the modern web.
+[barebones-css](https://tiaanduplessis.github.io/barebones-css) - A minimal, responsive boilerplate for the modern web.
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Build Status](https://travis-ci.org/mightyCrow/barebones-css.svg?branch=master)](https://travis-ci.org/mightyCrow/barebones-css)
-[![GitHub version](https://badge.fury.io/gh/mightyCrow%2Fbarebones-css.svg)](https://badge.fury.io/gh/mightyCrow%2Fbarebones-css)
+[![Build Status](https://travis-ci.org/tiaanduplessis/barebones-css.svg?branch=master)](https://travis-ci.org/tiaanduplessis/barebones-css)
+[![GitHub version](https://badge.fury.io/gh/tiaanduplessis%2Fbarebones-css.svg)](https://badge.fury.io/gh/tiaanduplessis%2Fbarebones-css)
 [![Bower version](https://badge.fury.io/bo/barebones-css.svg)](https://badge.fury.io/bo/barebones-css)
-[![npm version](https://badge.fury.io/js/barebones-css.svg)](https://badge.fury.io/js/barebones-css) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mightyCrow/barebones-css/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mightyCrow/barebones-css.svg)](https://github.com/mightyCrow/barebones-css/stargazers) [![GitHub issues](https://img.shields.io/github/issues/mightyCrow/barebones-css.svg)](https://github.com/mightyCrow/barebones-css/issues)
+[![npm version](https://badge.fury.io/js/barebones-css.svg)](https://badge.fury.io/js/barebones-css) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/tiaanduplessis/barebones-css/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/tiaanduplessis/barebones-css.svg)](https://github.com/tiaanduplessis/barebones-css/stargazers) [![GitHub issues](https://img.shields.io/github/issues/tiaanduplessis/barebones-css.svg)](https://github.com/tiaanduplessis/barebones-css/issues)
 
 ## What's so great about it?
 
@@ -27,7 +27,7 @@
 **Install with cdn**
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/mightyCrow/barebones-css/master/dist/barebones.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/tiaanduplessis/barebones-css/master/dist/barebones.min.css">
 ```
 
 **Install with Bower**
@@ -60,4 +60,4 @@ Here are some other **awesome** options:
 Want to contribute to barebones? This project is still young and I welcome any help!
 
 ## License
-Created with ♥ by [Tiaan du Plessis](https://github.com/mightyCrow). Licensed under the MIT License.
+Created with ♥ by [Tiaan du Plessis](https://github.com/tiaanduplessis). Licensed under the MIT License.
