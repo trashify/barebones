@@ -5,7 +5,6 @@
 
 [barebones-css](https://tiaanduplessis.github.io/barebones-css) - A minimal, responsive boilerplate for the modern web.
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Build Status](https://travis-ci.org/tiaanduplessis/barebones-css.svg?branch=master)](https://travis-ci.org/tiaanduplessis/barebones-css)
 [![GitHub version](https://badge.fury.io/gh/tiaanduplessis%2Fbarebones-css.svg)](https://badge.fury.io/gh/tiaanduplessis%2Fbarebones-css)
 [![Bower version](https://badge.fury.io/bo/barebones-css.svg)](https://badge.fury.io/bo/barebones-css)
@@ -49,6 +48,7 @@ $ yarn add barebones-css
 ```
 
 ## Not catching your fancy?
+
 Here are some other **awesome** options:
 - [Skeleton](http://getskeleton.com/)
 - [Milligram](https://milligram.github.io/)
@@ -56,8 +56,16 @@ Here are some other **awesome** options:
 - [Legacy Framework](https://legacy-framework.com/)
 - [Spectre](https://picturepan2.github.io/spectre/)
 
-# Contributing
-Want to contribute to barebones? This project is still young and I welcome any help!
+## Thanks to OSS
+
+barebones CSS is made possible through Open Source Software. A very special thanks to all the modules it [uses](package.json).
+
+## Contributing
+
+All Contributions are welcome! Please open up an issue if you would like to help out. :smile:
+
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/tiaan/)
 
 ## License
-Created with ♥ by [Tiaan du Plessis](https://github.com/tiaanduplessis). Licensed under the MIT License.
+
+Created with ♥ by [Tiaan du Plessis](http://tiaanduplessis.co.za/). Licensed under the MIT License.
