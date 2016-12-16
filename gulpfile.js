@@ -11,6 +11,7 @@ const cssimport = require('gulp-cssimport')
 const purge = require('gulp-css-purge')
 const del = require('del')
 const browserSync = require('browser-sync')
+const lesshint = require('gulp-lesshint')
 const reload = browserSync.reload
 const source = {
   dist: 'src/main.less',
@@ -40,6 +41,13 @@ gulp.task('build', () => {
     .pipe(gulp.dest('demo/css'))
     .pipe(gulp.dest('dist'))
     .pipe(reload({stream: true}))
+})
+
+gulp.task('lint', function () {
+  return gulp.src(source.css)
+    .pipe(lesshint())
+    .pipe(lesshint.reporter())
+    .pipe(lesshint.failOnError()) // Use this to fail the task on lint errors
 })
 
 gulp.task('file-size', () => {
