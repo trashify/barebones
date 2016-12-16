@@ -7,7 +7,8 @@
     "test": "echo nope",
     "build": "gulp clean && gulp build",
     "start": "gulp",
-    "deploy": "gulp build && gh-pages -d demo"
+    "deploy": "gulp build && gh-pages -d demo",
+    "lint:js": "standard"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "gulp-less": "3.3.0",
     "gulp-rename": "1.2.2",
     "gulp-size": "2.1.0",
-    "run-sequence": "1.2.2"
+    "run-sequence": "1.2.2",
+    "standard": "^8.6.0"
   }
 }
