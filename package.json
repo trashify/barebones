@@ -46,6 +46,6 @@
     "gulp-rename": "1.2.2",
     "gulp-size": "2.1.0",
     "run-sequence": "1.2.2",
-    "standard": "^8.6.0"
+    "standard": "^10.0.0-beta.0"
   }
 }
