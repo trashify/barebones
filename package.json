@@ -29,7 +29,7 @@
   "homepage": "https://github.com/tiaanduplessis/barebones-css#readme",
   "dependencies": {
     "flexboxgrid": "^6.3.0",
-    "sanitize.css": "^4.1.0"
+    "sanitize.css": "^5.0.0"
   },
   "devDependencies": {
     "browser-sync": "2.18.3",
