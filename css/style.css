@@ -6,7 +6,6 @@ main section {
   display: block;
   width: 100%;
   min-height: 50px;
-  line-height: 50px;
   background-color: #2c3e50;
   color: #fff;
 }
@@ -48,7 +47,6 @@ main section {
 }
 
 .cover p {
-  font-family: 'Raleway';
   margin: 50px 0;
 }
 
