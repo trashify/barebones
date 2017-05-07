@@ -1,7 +1,4 @@
-<p align="center">
-	<a href=""><img width="100%" src="demo/images/header.png" alt="barebones - A minimal, responsive boilerplate for the modern web."></a>
-</p>
-# barebones-css
+
 
 [barebones-css](https://tiaanduplessis.github.io/barebones-css) - A minimal, responsive boilerplate for the modern web.
 
@@ -62,9 +59,7 @@ barebones CSS is made possible through Open Source Software. A very special than
 
 ## Contributing
 
-All Contributions are welcome! Please open up an issue if you would like to help out. :smile:
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/tiaan/)
+All Contributions are welcome! Please open up an issue if you would like to help out.
 
 ## License
 

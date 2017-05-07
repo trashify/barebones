@@ -4,7 +4,7 @@
   "description": "A minimal, responsive CSS boilerplate for the modern web.",
   "main": "dist/barebones.css",
   "scripts": {
-    "test": "echo nope",
+    "test": "npm run lint:js; npm run lint:less",
     "build": "gulp clean && gulp build",
     "start": "gulp",
     "deploy": "gulp build && gh-pages -d demo",
@@ -29,10 +29,10 @@
   "homepage": "https://github.com/tiaanduplessis/barebones-css#readme",
   "dependencies": {
     "flexboxgrid": "^6.3.0",
-    "sanitize.css": "^5.0.0"
+    "nanoreset": "^1.0.1"
   },
   "devDependencies": {
-    "browser-sync": "2.18.3",
+    "browser-sync": "2.18.8",
     "del": "2.2.2",
     "gh-pages": "0.12.0",
     "gulp": "3.9.1",
@@ -42,10 +42,10 @@
     "gulp-cssnano": "2.1.2",
     "gulp-header": "1.8.8",
     "gulp-less": "3.3.0",
-    "gulp-lesshint": "^2.1.0",
+    "gulp-lesshint": "^3.0.1",
     "gulp-rename": "1.2.2",
     "gulp-size": "2.1.0",
     "run-sequence": "1.2.2",
-    "standard": "^8.6.0"
+    "standard": "^10.0.2"
   }
 }
